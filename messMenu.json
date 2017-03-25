@@ -1,6 +1,5 @@
 {  
-"month" : "March", 
-  
+"month" : "March",
 "Monday":{
                    "Breakfast":"Methi thepla, Aloo Sabji , Boiled egg",
                    "Lunch":"Jeera rice, Rajma, Tuar dal, Veg achari baingan, Nimbu paani , Fruit",
@@ -27,9 +26,9 @@
 
 "Friday":{
                    "Breakfast":"Onion paratha, Curd , Boiled egg",
-                   "Lunch":"Rice, Dal fry ,  Aloo baingan , Chhole Sabji",
-                   "High Tea":"Nimbu pani + Fruit",
-                    "Dinner":"Moong dal pakode + Green chutney + Red chutney" },
+                   "Lunch":"Rice, Dal fry ,  Aloo baingan , Chhole Sabji , Nimbu pani + Fruit",
+                   "High Tea":"Moong dal pakode + Green chutney + Red chutney",
+                    "Dinner":"Fried rice, Mixed dal,  Matar paneer, Aloo paalak, Gulaabjamun, Butter chicken" },
 
 "Saturday":{
                    "Breakfast":"Puri, Aloo sabji , Egg bhurji",
@@ -49,3 +48,4 @@
                    "High Tea":"Tea, Milk, Coffee, Sugar",
                     "Dinner":"Salad, Lemon, Green chillies, Pickle,  Papad, Chapati, Sauf & Mishri" }
 }
+
