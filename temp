@@ -1,0 +1,61 @@
+#include <avr/interrupt.h> 
+#include <avr/io.h>
+
+unsigned int toggle = 0;  //used to keep the state of the LED
+unsigned int count = 0;   //used to keep count of how many interrupts were fired
+
+//Timer2 Overflow Interrupt Vector, called every 1ms
+ISR(TIMER2_OVF_vect) {
+  count++;               //Increments the interrupt counter
+  if(count > 999){
+    toggle = !toggle;    //toggles the LED state
+    count = 0;           //Resets the interrupt counter
+  }
+  digitalWrite(53,toggle);
+  TCNT2 = 130;           //Reset Timer to 130 out of 255
+  TIFR2 = 0x00;          //Timer2 INT Flag Reg: Clear Timer Overflow Flag
+}; 
+
+void setup() {
+  pinMode(53,OUTPUT);
+
+  //Setup Timer2 to fire every 1ms
+  TCCR2B = 0x00;        //Disbale Timer2 while we set it up
+  TCNT2  = 130;         //Reset Timer Count to 130 out of 255
+  TIFR2  = 0x00;        //Timer2 INT Flag Reg: Clear Timer Overflow Flag
+  TIMSK2 = 0x01;        //Timer2 INT Reg: Timer2 Overflow Interrupt Enable
+  TCCR2A = 0x00;        //Timer2 Control Reg A: Wave Gen Mode normal
+  TCCR2B = 0x05;        //Timer2 Control Reg B: Timer Prescaler set to 128
+}
+
+void loop() {
+}
+
+
+
+extern uint32_t MicroSecClock = 0;
+
+ISR(TIMER2_OVF_vect) {// this is a built in function that gets called when the timer gets to the overflow counter number
+  static uint_8 count;            // interrupt counter
+
+  if( (++count & 0x01) == 0 )     // bump the interrupt counter
+    ++MicroSecClock;              // & count uSec every other time.
+
+  digitalWrite(53,toggle);// pin 53 is arbitrary
+  TCNT2 = 253;                    // this tells the timer when to trigger the interrupt. when the counter gets to 253 out of 255(because the timer is 8 bit) the timmer will trigger an interrupt
+  TIFR2 = 0x00;                   // clear timer overflow flag
+};
+
+
+
+void setup(){
+  TCCR2B = TCCR2B & 0b11111000 | 0x01;
+}
+
+
+
+
+
+
+
+
