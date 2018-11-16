@@ -1,0 +1,1 @@
+{"2018-02-02": [{"type": "Final", "avgDistance": 73, "spots": [{"name": "Mornera", "avgDistance": 94, "maxDistance": 194}, {"name": "Niederwiler Stierenberg", "avgDistance": 53, "maxDistance": 111}], "Good_Bad": "Bad", "Good_Bad_probability": "0.058305454"}]}

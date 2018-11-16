@@ -1,0 +1,1 @@
+{"2018-03-28": [{"type": "Final", "avgDistance": 51, "spots": [{"name": "Mornera", "avgDistance": 56, "maxDistance": 105}, {"name": "Weissenstein", "avgDistance": 51, "maxDistance": 101}, {"name": "Brunni", "avgDistance": 52, "maxDistance": 83}, {"name": "Fanas", "avgDistance": 46, "maxDistance": 70}], "Good_Bad": "Bad", "Good_Bad_probability": "0.016192552"}]}

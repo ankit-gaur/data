@@ -1,0 +1,1 @@
+{"2018-07-01": [{"type": "Final", "avgDistance": 107, "spots": [{"name": "Fiesch", "avgDistance": 107, "maxDistance": 205}], "Good_Bad": "Good", "Good_Bad_probability": "0.97940296"}, {"type": "Preliminary", "avgDistance": 90, "spots": [{"name": "Fiesch", "avgDistance": 90, "maxDistance": 179}], "Good_Bad": "Good", "Good_Bad_probability": "0.9567862"}]}

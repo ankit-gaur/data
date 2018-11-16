@@ -1,0 +1,1 @@
+{"2018-01-01": [{"type": "Final", "avgDistance": 61, "spots": [{"name": "Niederwiler Stierenberg", "avgDistance": 51, "maxDistance": 91}, {"name": "Mornera", "avgDistance": 77, "maxDistance": 141}, {"name": "Brunni", "avgDistance": 33, "maxDistance": 51}, {"name": "Weissenstein", "avgDistance": 84, "maxDistance": 155}], "Good_Bad": "Bad", "Good_Bad_probability": "0.0067984876"}]}

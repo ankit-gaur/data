@@ -1,0 +1,1 @@
+{"2018-06-11": [{"type": "Final", "avgDistance": 49, "spots": [{"name": "Fiesch", "avgDistance": 58, "maxDistance": 100}, {"name": "Weissenstein", "avgDistance": 40, "maxDistance": 73}], "Good_Bad": "Good", "Good_Bad_probability": "0.8275769"}]}

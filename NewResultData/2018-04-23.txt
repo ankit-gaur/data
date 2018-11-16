@@ -1,0 +1,1 @@
+{"2018-04-23": [{"type": "Preliminary", "avgDistance": 65, "spots": [{"name": "Fanas", "avgDistance": 51, "maxDistance": 98}, {"name": "Fiesch", "avgDistance": 93, "maxDistance": 159}, {"name": "Brunni", "avgDistance": 44, "maxDistance": 81}, {"name": "Riederalp", "avgDistance": 74, "maxDistance": 177}], "Good_Bad": "Good", "Good_Bad_probability": "0.9598532"}]}
