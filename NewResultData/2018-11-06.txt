@@ -1,1 +1,1 @@
-{"2018-11-06": [{"type": "Final", "avgDistance": 66, "spots": [{"name": "Fanas", "avgDistance": 55, "maxDistance": 94}, {"name": "Brunni", "avgDistance": 68, "maxDistance": 103}, {"name": "Fiesch", "avgDistance": 77, "maxDistance": 127}], "Good_Bad": "Bad", "Good_Bad_probability": "0.32356235"}, {"type": "Preliminary", "avgDistance": 80, "spots": [{"name": "Fanas", "avgDistance": 61, "maxDistance": 116}, {"name": "Weissenstein", "avgDistance": 100, "maxDistance": 218}], "Good_Bad": "Bad", "Good_Bad_probability": "0.31093806"}]}
+{"2018-11-06": []}

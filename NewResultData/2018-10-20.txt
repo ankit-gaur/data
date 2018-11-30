@@ -1,1 +1,1 @@
-{"2018-10-20": [{"type": "Final", "avgDistance": 108, "spots": [{"name": "Fiesch", "avgDistance": 93, "maxDistance": 187}, {"name": "Fanas", "avgDistance": 124, "maxDistance": 283}], "Good_Bad": "Good", "Good_Bad_probability": "0.8092302"}, {"type": "Preliminary", "avgDistance": 87, "spots": [{"name": "Fiesch", "avgDistance": 99, "maxDistance": 179}, {"name": "Riederalp", "avgDistance": 93, "maxDistance": 205}, {"name": "Fanas", "avgDistance": 70, "maxDistance": 132}], "Good_Bad": "Good", "Good_Bad_probability": "0.8746194"}]}
+{"2018-10-20": []}
